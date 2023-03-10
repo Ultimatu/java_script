@@ -1,19 +1,19 @@
 package com.souleymane.coursJava;
 public class CalculDiscriminant {
-    // recuperer une fonction math et calculer son discriminant avec do while
+    // c
     public static void main(String[] args) {
         double a = 1;
         double b = 2;
         double c = 3;
         double discriminant = 0;
-        do {
-            discriminant = (b * b) - (4 * a * c);
-            System.out.println("le discriminant   de " + a + "x² + " + b + "x + " + c + " est " + discriminant);
-            a++;
-            b++;
-            c++;
-        } while (a < 10);
+        do { // boucle do while
+            discriminant = (b * b) - (4 * a * c); // calcul du discriminant
+            System.out.println("le discriminant   de " + a + "x² + " + b + "x + " + c + " est " + discriminant); // affichage du discriminant
+            a++; // incrémentation de a
+            b++; // incrémentation de b
+            c++; // incrémentation de c
+        } while (a < 10); // condition de sortie de la boucle
     }
-    //ecrit  qui compare deux chaines de caracteres en java sans utiliser la methode equals
+   
     
 }
